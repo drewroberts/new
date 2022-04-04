@@ -40,6 +40,10 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'email' => [
+            'driver' => 'session',
+            'provider' => 'email',
+        ],
     ],
 
     /*
@@ -61,14 +65,13 @@ return [
 
     'providers' => [
         'users' => [
-            'driver' => 'eloquent',
-            'model' => App\Models\User::class,
+            'driver' => 'tipoff',
+            'model' => Tipoff\Authorization\Models\User::class,
         ],
-
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+        'email' => [
+            'driver' => 'eloquent',
+            'model' => Tipoff\Authorization\Models\EmailAddress::class,
+        ],
     ],
 
     /*
