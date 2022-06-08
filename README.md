@@ -23,6 +23,7 @@ TIPOFF League is an Agency & a Metaverse/IRL Gaming League of 10 teams.
 - GitHub.com/tipoff/music
 - GitHub.com/tipoff/blockchain 
 - GitHub.com/tipoff/league 
+- GitHub.com/tipoff/twitter 
 
 ## Frameworks
 - Laravel
