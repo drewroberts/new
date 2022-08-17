@@ -12,6 +12,8 @@ From there, create the ``tipoff`` database in MySQL and from the command line ru
 composer install
 php artisan migrate
 php artisan key:generate
+npm install
+npm run dev
 ```
 
 You can then view the homepage if you're using Laravel Homestead at https://tipoff.test and can access Laravel Nova at http://tipoff.test/admin
