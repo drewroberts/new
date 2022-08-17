@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5993079337ddffe26faa7ef9aeab7563",
+    "content-hash": "cb7ee06bee5c350918dbbdc043e68297",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1249,24 +1249,23 @@
         },
         {
             "name": "drewroberts/blog",
-            "version": "4.5.4",
+            "version": "4.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drewroberts/blog.git",
-                "reference": "3c5d7f6ff3db2e326782b9d47684a3efca25755e"
+                "reference": "8846a49a3dfc014837934e61276de033ee8f1805"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drewroberts/blog/zipball/3c5d7f6ff3db2e326782b9d47684a3efca25755e",
-                "reference": "3c5d7f6ff3db2e326782b9d47684a3efca25755e",
+                "url": "https://api.github.com/repos/drewroberts/blog/zipball/8846a49a3dfc014837934e61276de033ee8f1805",
+                "reference": "8846a49a3dfc014837934e61276de033ee8f1805",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.3|^8.0",
-                "sixlive/nova-text-copy-field": "^1.5",
-                "tipoff/authorization": "^2.8.6",
-                "tipoff/seo": "^2.7.5",
-                "tipoff/support": "^2.1.5"
+                "tipoff/authorization": "^2.10.0",
+                "tipoff/seo": "^2.8.0",
+                "tipoff/support": "^2.2.0"
             },
             "require-dev": {
                 "tipoff/test-support": "^2.0.1"
@@ -1309,7 +1308,7 @@
             ],
             "support": {
                 "issues": "https://github.com/drewroberts/blog/issues",
-                "source": "https://github.com/drewroberts/blog/tree/4.5.4"
+                "source": "https://github.com/drewroberts/blog/tree/4.6.0"
             },
             "funding": [
                 {
@@ -1317,7 +1316,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-04-23T14:34:50+00:00"
+            "time": "2022-08-17T16:40:28+00:00"
         },
         {
             "name": "drewroberts/media",
@@ -6151,61 +6150,6 @@
                 "source": "https://github.com/Silvanite/nova-field-cloudinary/tree/master"
             },
             "time": "2020-01-20T17:01:48+00:00"
-        },
-        {
-            "name": "sixlive/nova-text-copy-field",
-            "version": "v1.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sixlive/nova-text-copy-field.git",
-                "reference": "1de83cf4aa3599f12308835d6a6baca4fdd53f5b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sixlive/nova-text-copy-field/zipball/1de83cf4aa3599f12308835d6a6baca4fdd53f5b",
-                "reference": "1de83cf4aa3599f12308835d6a6baca4fdd53f5b",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/nova": "*",
-                "php": ">=7.1.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Sixlive\\TextCopy\\FieldServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Sixlive\\TextCopy\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "TJ Miller",
-                    "email": "oss@tjmiller.co",
-                    "homepage": "https://www.tjmiller.me",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Laravel Nova text field with click to copy support",
-            "homepage": "https://github.com/sixlive/nova-text-copy-field",
-            "keywords": [
-                "laravel",
-                "nova"
-            ],
-            "support": {
-                "issues": "https://github.com/sixlive/nova-text-copy-field/issues",
-                "source": "https://github.com/sixlive/nova-text-copy-field/tree/master"
-            },
-            "time": "2019-03-03T19:28:38+00:00"
         },
         {
             "name": "skagarwal/google-places-api",
