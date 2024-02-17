@@ -1,12 +1,25 @@
-# TIPOFF
-Laravel Muli-Site Code for TIPOFF.com, DrewRoberts.com, and affiliated properties owned by Drew Roberts Digital LLC and TIPOFF LLC.
+# Welcome to the Internet Home of Drew Roberts
 
-TIPOFF League is an Agency & a Metaverse/IRL Gaming League of 10 teams.
+This [GitHub Repository](https://github.com/drewroberts/website) contains the code behind the website of Drew Roberts - [DrewRoberts.com](https://drewroberts.com "Drew Roberts")
+
+## Connect with Drew Roberts
+
+- [X.com/DrewRoberts](https://X.com/DrewRoberts)
+- [FB.com/DrewRoberts](https://facebook.com/DrewRoberts)
+- [t.me/DrewRoberts](https://t.me/DrewRoberts)
+- [YouTube.com/DrewRoberts](https://youtube.com/DrewRoberts)
+- [Instagram.com/DrewRobertsETH](https://instagram.com/DrewRobertsETH)
+- [LinkedIn.com/in/DrewRoberts](https://linkedin.com/in/DrewRoberts)
+
+## Projects
+
+[Bear Fund](https://t.me/BearFund) is my launchpad for projects during the upcoming cryptocurrency cycle.
 
 ## Installation
+
 After setting up local dev environment with PHP 7.4, you will launch this Laravel 8 app by copying the ``.env.example`` file to ``.env``
 
-From there, create the ``tipoff`` database in MySQL and from the command line run the following commands:
+From there, create the ``website`` database in MySQL and from the command line run the following commands:
 
 ```bash
 composer install
@@ -16,21 +29,10 @@ npm install
 npm run dev
 ```
 
-You can then view the homepage if you're using Laravel Homestead at https://tipoff.test and can access Laravel Nova at http://tipoff.test/admin
-
-
-## Teams
-- Coming Soon
-
-## Domains
-- TIPOFF.com
-- DrewRoberts.com
-- Roberts.love
-- Web3Anthems.com
-- ShantellWilliams.com
-- DrewsTheme.com
+You can then view the homepage if you're using Laravel Homestead at https://website.test and can access Laravel Nova at http://website.test/admin
 
 ## Packages
+
 - GitHub.com/tipoff/seo
 - GitHub.com/drewroberts/media
 - GitHub.com/drewroberts/blog
@@ -42,6 +44,11 @@ You can then view the homepage if you're using Laravel Homestead at https://tipo
 - GitHub.com/tipoff/twitter 
 
 ## Frameworks
+
 - Laravel
 - Laravel Nova
 - Laravel Socialite
+
+## Contributing
+
+Feel free to send me a feature request or submit pull requests and improve the website where you see it needs it. I appreciate the help..
