@@ -33,15 +33,14 @@ You can then view the homepage if you're using Laravel Homestead at https://webs
 
 ## Packages
 
-- GitHub.com/tipoff/seo
-- GitHub.com/drewroberts/media
-- GitHub.com/drewroberts/blog
-- GitHub.com/tipoff/authorization
-- GitHub.com/tipoff/onboarding
-- GitHub.com/tipoff/music
-- GitHub.com/tipoff/blockchain 
-- GitHub.com/tipoff/league 
-- GitHub.com/tipoff/twitter 
+- [tipoff/support](https://github.com/tipoff/support)
+- [tipoff/authorization](https://github.com/tipoff/authorization)
+- [tipoff/addresses](https://github.com/tipoff/addresses)
+- [tipoff/laravel-google-api](https://github.com/tipoff/laravel-google-api)
+- [tipoff/laravel-serpapi](https://github.com/tipoff/laravel-serpapi)
+- [tipoff/seo](https://github.com/tipoff/seo)
+- [drewroberts/media](https://github.com/drewroberts/media)
+- [drewroberts/blog](https://github.com/drewroberts/blog)
 
 ## Frameworks
 
