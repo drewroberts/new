@@ -1201,7 +1201,7 @@
 			<div class="sidebar">
 				<form method="post"
 				class="p2"
-				action-xhr="{{ route('subscribe') }}"
+				action-xhr=""
 				target="_top"
 				custom-validation-reporting="show-first-on-submit">
 					{{csrf_field()}}
